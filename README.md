@@ -1,1 +1,6 @@
-# Assignment-9
+Summary - The provided code leverages Keras and pandas libraries to develop and train a sentiment analysis model employing LSTM neural networks. Firstly, the dataset undergoes preprocessing, including converting text to lowercase, eliminating special characters, and tokenization. The model architecture encompasses an embedding layer, an LSTM layer, and a dense layer with softmax activation. Training employs a categorical cross-entropy loss function and Adam optimizer, resulting in a test data accuracy of roughly 66.93%.
+Similarly, another sentiment analysis model is constructed using Keras and pandas in the code, incorporating hyperparameter tuning via GridSearchCV. Following data preprocessing and model architecture definition, the script executes a grid search to optimize the number of epochs for superior model performance. Ultimately, the best model achieves a specific accuracy score determined through the grid search process.
+
+There are two source code files with name Assignment 9(1).ipynb, Assignment 9(2).ipynb. There is one documentation file which consists of the executed python code along with the output result.
+
+Video explanation - https://drive.google.com/file/d/1RnmlNluZhWFzu__qQWqihWm-F2l3GHka/view?usp=drive_link
